@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-weight: 3
+weight: 1
 ---
 
 # **About Me**
@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Engineering Skills" source=site.data.other-skills %}
 </div>
 
 <div class="row">
